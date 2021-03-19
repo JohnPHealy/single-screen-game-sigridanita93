@@ -4,27 +4,27 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(AudioSource))]
 public class PlayerInteraction : MonoBehaviour
-
 {
-    [SerializeField] private LayerMask playerLayers;
-    [SerializeField] private UnityEvent interacted;
+    [SerializeField] private UnityEvent noteInteraction;
 
-    private Collider2D myCollider;
+    private AudioSource myAudioSource;
 
     private void Start()
     {
-        myCollider = GetComponent<Collider2D>();
+        myAudioSource = GetComponent<AudioSource>();
+        myAudioSource.enabled = false;
     }
 
-    public void Interact(InputAction.CallbackContext context)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(context.ReadValue<float>() >= 0.5f)
+        if (other.gameObject.tag == "Player")
         {
-            if(myCollider.IsTouchingLayers( (int)playerLayers))
-            {
-                interacted.Invoke();
-            }
+            myAudioSource.enabled = true;
+            noteInteraction.Invoke();
         }
+
     }
+    
 }

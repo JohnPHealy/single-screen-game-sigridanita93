@@ -46,6 +46,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8646877790596430892}
     m_Modifications:
+    - target: {fileID: 2843411149500885953, guid: 33f4328f7d50ad041aab9b80f6e454d8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2843411149500885954, guid: 33f4328f7d50ad041aab9b80f6e454d8,
         type: 3}
       propertyPath: m_RootOrder
@@ -131,6 +136,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8646877790596430892}
     m_Modifications:
+    - target: {fileID: 2843411149500885953, guid: 33f4328f7d50ad041aab9b80f6e454d8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2843411149500885954, guid: 33f4328f7d50ad041aab9b80f6e454d8,
         type: 3}
       propertyPath: m_RootOrder
@@ -226,6 +236,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8646877790596430892}
     m_Modifications:
+    - target: {fileID: 2843411149500885953, guid: 33f4328f7d50ad041aab9b80f6e454d8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2843411149500885954, guid: 33f4328f7d50ad041aab9b80f6e454d8,
         type: 3}
       propertyPath: m_RootOrder
@@ -441,6 +456,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8646877790596430892}
     m_Modifications:
+    - target: {fileID: 2843411149500885953, guid: 33f4328f7d50ad041aab9b80f6e454d8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2843411149500885954, guid: 33f4328f7d50ad041aab9b80f6e454d8,
         type: 3}
       propertyPath: m_RootOrder
@@ -856,6 +876,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8646877790596430892}
     m_Modifications:
+    - target: {fileID: 2843411149500885953, guid: 33f4328f7d50ad041aab9b80f6e454d8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2843411149500885954, guid: 33f4328f7d50ad041aab9b80f6e454d8,
         type: 3}
       propertyPath: m_RootOrder
