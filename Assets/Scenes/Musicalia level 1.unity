@@ -1591,7 +1591,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
 --- !u!1 &901175982 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2236810120712465150, guid: a050d1ea5b495f348b4ecac3b836b1b9,
@@ -2587,9 +2587,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1771774090}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: set_name
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2597,7 +2597,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
 --- !u!82 &1771774095
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2608,7 +2608,7 @@ AudioSource:
   m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6d19aceb8665ff0479a59130ec0cd4c7, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2839,7 +2839,7 @@ AudioSource:
   m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 22e14b94fe9866645bb477c33807d4c2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3120,12 +3120,12 @@ PrefabInstance:
     - target: {fileID: 2236810120450077882, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2236810120488564084, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2236810120693828064, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
@@ -3150,7 +3150,7 @@ PrefabInstance:
     - target: {fileID: 2236810120828686577, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2236810120868996341, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
@@ -3175,7 +3175,7 @@ PrefabInstance:
     - target: {fileID: 2236810121136110168, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2236810121142031853, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
@@ -3270,12 +3270,12 @@ PrefabInstance:
     - target: {fileID: 2236810121408683776, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2236810121418947905, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2236810121494300644, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
@@ -3285,7 +3285,7 @@ PrefabInstance:
     - target: {fileID: 2236810121525978702, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2236810121589906962, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
@@ -3295,7 +3295,7 @@ PrefabInstance:
     - target: {fileID: 2236810121625401824, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2236810121739909721, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
@@ -3335,7 +3335,7 @@ PrefabInstance:
     - target: {fileID: 2236810122190751067, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2236810122257039044, guid: a050d1ea5b495f348b4ecac3b836b1b9,
         type: 3}
